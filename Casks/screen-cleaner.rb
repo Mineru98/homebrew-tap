@@ -1,18 +1,18 @@
 cask "screen-cleaner" do
-  version "1.0.0"
-  sha256 "3c83d26c11de2842f84230501b14322f3d63348d1ec162d990321aba800acbdb"
+  version "1.0.1"
+  sha256 "722ce62ca73dd1002c8916e4fc6967891ca5c62d64e1b4d3f9d5c16ee5789caa"
 
-  url "https://github.com/Mineru98/screen-cleaner/releases/download/v#{version}/ScreenCleaner.dmg"
+  url "https://github.com/Mineru98/screen-cleaner-releases/releases/download/v#{version}/ScreenCleaner.dmg"
   name "Screen Cleaner"
-  desc "Blocks keyboard input and dims screen while cleaning your MacBook"
-  homepage "https://github.com/Mineru98/screen-cleaner"
+  desc "Block keyboard input and dim screen for safe MacBook cleaning"
+  homepage "https://github.com/Mineru98/screen-cleaner-releases"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "ScreenCleaner.app"
 
   zap trash: [
-    "~/Library/Preferences/com.mineru98.ScreenCleaner.plist",
+    "~/Library/Preferences/com.screencleaner.ScreenCleaner.plist",
     "~/Library/Application Support/ScreenCleaner",
   ]
 end
