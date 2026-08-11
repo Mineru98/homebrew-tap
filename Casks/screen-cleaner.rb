@@ -1,6 +1,6 @@
 cask "screen-cleaner" do
-  version "1.0.1"
-  sha256 "722ce62ca73dd1002c8916e4fc6967891ca5c62d64e1b4d3f9d5c16ee5789caa"
+  version "1.1.0"
+  sha256 "ad05e1d3302b15a63ab7cf944261c90c0cde410dbc7227c24f75c108c75d1518"
 
   url "https://github.com/Mineru98/screen-cleaner-releases/releases/download/v#{version}/ScreenCleaner.dmg"
   name "Screen Cleaner"
