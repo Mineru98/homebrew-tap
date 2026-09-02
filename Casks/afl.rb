@@ -4,21 +4,21 @@ cask "afl" do
 
   on_macos do
     on_arm do
-      sha256 "a9be5764fc4253540e996aedf20046a75211457593dee6079da48e993fb6c93b"
+      sha256 "e7426c5ff955420ab6ff880f5579d7123c22a8f0e054f7b16922a3ff176bdfca"
       url "https://github.com/Mineru98/agent-file-lock/releases/download/v#{version}/afl_#{version}_darwin_arm64.tar.gz"
     end
     on_intel do
-      sha256 "e2768627e7e694e6515e478eaef5d7865cfa7ccc59af7253a35f389a4850f3cb"
+      sha256 "060cc1dc189008e52c0f97e167cee768a35478fb133060e08e6f8c261e630ee7"
       url "https://github.com/Mineru98/agent-file-lock/releases/download/v#{version}/afl_#{version}_darwin_amd64.tar.gz"
     end
   end
   on_linux do
     on_arm do
-      sha256 "6a0cc6c0d1489a14df11f62e62a393a6393601d5af7d7ac6d5c0b2e290c8f69c"
+      sha256 "134c75ecf4d9aaf92e5be47080f5080a71d7efc40b26919b000d36fb949329a9"
       url "https://github.com/Mineru98/agent-file-lock/releases/download/v#{version}/afl_#{version}_linux_arm64.tar.gz"
     end
     on_intel do
-      sha256 "fbcc068544d4a18a71e587afad96bbad6d23443e74a7475109c2cb46eb6f6bbb"
+      sha256 "4425cfd810850943b582b43e486b10636f21dc4d30d2dc33f90f092813f6db61"
       url "https://github.com/Mineru98/agent-file-lock/releases/download/v#{version}/afl_#{version}_linux_amd64.tar.gz"
     end
   end
